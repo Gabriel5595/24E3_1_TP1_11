@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.main_container {
+  background-color: blue;
+  border: 2px solid black;
+  margin: 2px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.sub_container {
+  background-color: gray;
+  border: 2px solid black;
+  margin: 2px;
+  
+  display: flex;
+  flex-direction: row;
+}
+
+.sub_container p {
+  background-color: red;
+  border: 2px solid black;
+  margin: 2px;
+  padding: 2px;
+}
